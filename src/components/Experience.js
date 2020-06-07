@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Experience(props) {
+const Experience = () => {
     return (
         <div>
             
         </div>
     );
-}
+};
 
 export default Experience;
