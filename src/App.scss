@@ -1,3 +1,5 @@
+@import "./scss/variables.scss";
+@import "./scss/mixins.scss";
 @import "./scss/Header.scss";
 @import "./scss/Contact.scss";
 @import "./scss/Skills.scss";
@@ -6,10 +8,10 @@
 @import "./scss/Education.scss";
 
 .App {
-  max-width: 66rem;
-  max-height: 86rem;
-  margin-left: 15%;
-  display: grid;
-  background-color: #88563b;
-}
+ max-width: 66rem;
+ margin-left: 15%; 
+ border: 4px solid black;
+ padding: 2rem;
+ background-color: $secondary;
+} 
 
